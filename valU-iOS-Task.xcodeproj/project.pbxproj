@@ -16,6 +16,10 @@
 		DCDDBB3529009CC300BE2C41 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDDBB3429009CC300BE2C41 /* Constants.swift */; };
 		DCDDBB3729009CE200BE2C41 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDDBB3629009CE200BE2C41 /* UITableView+Extension.swift */; };
 		DCDDBB3929009D3400BE2C41 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDDBB3829009D3400BE2C41 /* ProductsViewController.swift */; };
+		DCDDBB3D29009EC200BE2C41 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDDBB3C29009EC200BE2C41 /* APIManager.swift */; };
+		DCDDBB3F29009EE300BE2C41 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDDBB3E29009EE300BE2C41 /* Product.swift */; };
+		DCDDBB4229009F9700BE2C41 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDDBB4029009F9700BE2C41 /* ProductCell.swift */; };
+		DCDDBB4329009F9700BE2C41 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCDDBB4129009F9700BE2C41 /* ProductCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		DCDDBB3429009CC300BE2C41 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		DCDDBB3629009CE200BE2C41 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		DCDDBB3829009D3400BE2C41 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		DCDDBB3C29009EC200BE2C41 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		DCDDBB3E29009EE300BE2C41 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		DCDDBB4029009F9700BE2C41 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		DCDDBB4129009F9700BE2C41 /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,7 @@
 		DCDDBB172900989B00BE2C41 /* valU-iOS-Task */ = {
 			isa = PBXGroup;
 			children = (
+				DCDDBB3B29009EA300BE2C41 /* Network */,
 				DCDDBB3A29009D5300BE2C41 /* AppDelegate */,
 				DCDDBB2F29009C3700BE2C41 /* Helpers */,
 				DCDDBB2E29009C2600BE2C41 /* Controllers */,
@@ -76,6 +85,7 @@
 		DCDDBB2C29009C1800BE2C41 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				DCDDBB3E29009EE300BE2C41 /* Product.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -85,6 +95,8 @@
 			children = (
 				DCDDBB1E2900989B00BE2C41 /* Main.storyboard */,
 				DCDDBB232900989D00BE2C41 /* LaunchScreen.storyboard */,
+				DCDDBB4029009F9700BE2C41 /* ProductCell.swift */,
+				DCDDBB4129009F9700BE2C41 /* ProductCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -114,6 +126,14 @@
 				DCDDBB182900989B00BE2C41 /* AppDelegate.swift */,
 			);
 			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		DCDDBB3B29009EA300BE2C41 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DCDDBB3C29009EC200BE2C41 /* APIManager.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCDDBB252900989D00BE2C41 /* LaunchScreen.storyboard in Resources */,
+				DCDDBB4329009F9700BE2C41 /* ProductCell.xib in Resources */,
 				DCDDBB222900989D00BE2C41 /* Assets.xcassets in Resources */,
 				DCDDBB202900989B00BE2C41 /* Main.storyboard in Resources */,
 			);
@@ -188,11 +209,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCDDBB3929009D3400BE2C41 /* ProductsViewController.swift in Sources */,
+				DCDDBB3F29009EE300BE2C41 /* Product.swift in Sources */,
 				DCDDBB3129009C5500BE2C41 /* CustomImageView.swift in Sources */,
 				DCDDBB3729009CE200BE2C41 /* UITableView+Extension.swift in Sources */,
 				DCDDBB192900989B00BE2C41 /* AppDelegate.swift in Sources */,
 				DCDDBB3329009C8700BE2C41 /* Inspectables.swift in Sources */,
+				DCDDBB4229009F9700BE2C41 /* ProductCell.swift in Sources */,
 				DCDDBB3529009CC300BE2C41 /* Constants.swift in Sources */,
+				DCDDBB3D29009EC200BE2C41 /* APIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
