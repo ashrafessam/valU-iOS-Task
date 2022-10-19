@@ -20,6 +20,7 @@
 		DCDDBB3F29009EE300BE2C41 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDDBB3E29009EE300BE2C41 /* Product.swift */; };
 		DCDDBB4229009F9700BE2C41 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDDBB4029009F9700BE2C41 /* ProductCell.swift */; };
 		DCDDBB4329009F9700BE2C41 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCDDBB4129009F9700BE2C41 /* ProductCell.xib */; };
+		DCDDBB452900A1E000BE2C41 /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDDBB442900A1E000BE2C41 /* ProductDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		DCDDBB3E29009EE300BE2C41 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		DCDDBB4029009F9700BE2C41 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		DCDDBB4129009F9700BE2C41 /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		DCDDBB442900A1E000BE2C41 /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				DCDDBB3829009D3400BE2C41 /* ProductsViewController.swift */,
+				DCDDBB442900A1E000BE2C41 /* ProductDetailsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				DCDDBB3929009D3400BE2C41 /* ProductsViewController.swift in Sources */,
 				DCDDBB3F29009EE300BE2C41 /* Product.swift in Sources */,
 				DCDDBB3129009C5500BE2C41 /* CustomImageView.swift in Sources */,
+				DCDDBB452900A1E000BE2C41 /* ProductDetailsViewController.swift in Sources */,
 				DCDDBB3729009CE200BE2C41 /* UITableView+Extension.swift in Sources */,
 				DCDDBB192900989B00BE2C41 /* AppDelegate.swift in Sources */,
 				DCDDBB3329009C8700BE2C41 /* Inspectables.swift in Sources */,
